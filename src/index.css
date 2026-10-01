@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "./styles/animations.css";
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: var(--color-black);
+  }
+
+  /* Tailwind v4 no longer gives buttons a pointer cursor by default. */
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
