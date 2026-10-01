@@ -8,5 +8,4 @@ export const PROFILE = {
   linkedin: "#", // your LinkedIn URL
   github: "#",   // your GitHub URL
   resume: "/Muhammad-Noman-CV.pdf", // file lives in /public; set to "" to hide the download buttons
-  photo: "/profile.jpg", // file lives in /public
 };
